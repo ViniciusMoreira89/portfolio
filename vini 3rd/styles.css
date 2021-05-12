@@ -1,0 +1,123 @@
+body {
+	background-color: powderblue;
+}
+.borderText {
+	border: 2px solid rgba(15, 150, 85, 1);
+	max-width: 1280px;
+	padding: 15px;
+	margin-right: auto;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	overflow: auto;
+}
+h1 {
+	color:rgba(15, 150, 85, 0.4);
+	font-family:verdana;
+	font-size:300%;
+	text-align:left;
+}
+p {
+	text-align: left;
+	color:rgba(156, 42, 177, 1);
+	font-family:courier;
+	font-size:100%;
+	font-weight:bold;
+}
+.responsive {
+	display: block;
+	max-width: 1280px;
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+}
+.imgLogo {
+	width: 100px;
+	float: right;
+}
+.logoFix {
+	margin-right: auto;
+	border: 1px solid rgba(0, 0, 0, 0);
+	max-width: 1060px;
+}
+.imgBody{
+	width: 200px;
+	float: left;
+}
+button {
+	float: right;
+}
+a:link {
+  color: purple;
+  background-color: green;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.ryuBack {
+	background-image: url('images/3rd/ryuBack.png');
+	opacity:1;
+	background-size:contain;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	color: white;
+}
+.kenBack {
+	background-image: url('images/3rd/kenBack.png');
+	opacity:1;
+	background-size:contain;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	color: white;
+}
+.akumaBack {
+	background-image: url('images/3rd/akumaBack.png');
+	opacity:1;
+	background-size:contain;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	color: white;
+}
+table, th, td {
+	width: 1000px;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;
+	border-spacing: 5px;
+}
+caption {
+	font-weight: bolder;
+	font-size: 50px;
+}
+#t01 {
+	background-color: tomato;
+}
+#t02 tr:nth-child(even) {
+  background-color: darkgrey;
+}
+#t02 tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+#rowNames {
+	width: 350px;
+}
+.borda_texto {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+	font-size: 3em; color: #fffdd9;
+}
